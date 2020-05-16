@@ -26,14 +26,16 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React JS is a UI Library. It tries to problem of state management. I can control state on any component and react will take care of rendering the page and updating the DOM for me. What if I only wanted to make a change to one component on the page? No problem. React lets me manage state specifically to one component. 
+
 - [ ] What does it mean to _think_ in react?
-
-- [ ] Describe state.
-
+      React breaks down a page in simple reusable components. Each component, when combined, renders a complete application. 
+- [ ] Describe state
+      State is a built in object with react. You store values that belong to a specific component. When the state object changes, the page re-renders.
 - [ ] Describe props.
-
+        props is an object that takes values given to a component. 
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
-
+      Side effects are things that happen outside of a function scope. To sync the side effects, use reacts built-in useEffect method. 
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
